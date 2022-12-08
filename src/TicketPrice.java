@@ -54,18 +54,18 @@ public class TicketPrice {
             if ((age < 25) || (age > 65)) {
                 if (isTypeDiscount) {
                     System.out.println("The age-based discount and ticket type discount are available.");
-                    System.out.println("Total price of your ticket: " + bothDiscountedPrice);
+                    System.out.println("Total price of your ticket: " + bothDiscountedPrice + " $");
                 } else {
-                    System.out.println("The age-based discount is available.");
-                    System.out.println("Total price of your ticket: " + discountedPrice);
+                    System.out.println("The age-based discount is available." + " $");
+                    System.out.println("Total price of your ticket: " + discountedPrice + " $");
                 }
             } else {
                 if (isTypeDiscount) {
                     System.out.println("Ticket type discount is available");
-                    System.out.println("Total price of your ticket: " + bothDiscountedPrice);
+                    System.out.println("Total price of your ticket: " + bothDiscountedPrice + " $");
                 } else {
                     System.out.println("No Discount.");
-                    System.out.println("Total price of your ticket: " + normalPrice);
+                    System.out.println("Total price of your ticket: " + normalPrice + " $");
                 }
             }
         } else {

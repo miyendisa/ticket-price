@@ -16,7 +16,7 @@ applied on the ticket price.
 ticket price.
 If the person has selected a return trip for the "Journey Type," 
 a 20% discount is applied on the ticket price.
-* The price of ticket per km is applied as 0,10 TL.
+* The price of ticket per km is applied as 0,10 $.
 
 ---
 
